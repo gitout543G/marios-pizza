@@ -18,7 +18,7 @@ function verbinde(): PDO {
     $c = require $datei;
 
     // Normalfall: MySQL. Mit "dsn" in config.php lässt sich das für Tests überschreiben.
-    $port = $c['port'] ?? 3306;
+    $port = $c['port'] ?? 3308;
     $dsn = $c['dsn'] ?? "mysql:host={$c['host']};port={$port};dbname={$c['name']};charset=utf8mb4";
 
     try {

@@ -3,7 +3,7 @@
 // config.php steht in .gitignore und darf NIE bei GitHub landen.
 return [
     'host'     => 'localhost',
-    'port'     => 3306,     // XAMPP: 3306
+    'port'     => 3308,     // XAMPP: 3308
     'name'     => 'marios_pizza',
     'user'     => 'root',   // XAMPP: root
     'password' => '',       // XAMPP: leer
