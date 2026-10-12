@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="xzPMi7j2G2r9DrXo_-jC" name="Page-1">
+        <mxGraphModel dx="705" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="gyJGxilsN9KkJDuRAsNh-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Artikel" vertex="1">
+                    <mxGeometry height="250" width="300" x="20" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="gyJGxilsN9KkJDuRAsNh-2" parent="gyJGxilsN9KkJDuRAsNh-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" value="- artikel ID :&amp;nbsp; int&lt;div&gt;- name : String&lt;/div&gt;&lt;div&gt;-beschreibung: String&lt;/div&gt;&lt;div&gt;- preis: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;getPreis(): double&lt;/div&gt;&lt;div&gt;setPreis (preise : double) : void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="230" width="300" y="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
