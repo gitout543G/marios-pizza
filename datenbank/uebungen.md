@@ -8,17 +8,22 @@
 
 ## Übung 01
 - Entität: Rezept
-- Attribute: Titel, Zubereitungsdauer, Schwierigkeit, Veröffentlichungsdatum
+- Attribute: Titel, Zubereitungsdauer, Schwierigkeit, Veröffentlichungsdatum, rezept_id, zutat_id, sammlung_id, kategorie_id
 
 
 - Entität: Kategorie
-- Attribute: Vorspeise, Hauptgericht, Dessert
+- Attribute: Bezeichnung, kategorie_id
 
 - Entität: Zutat
-- Attribute: Namen, Einheit, Menge
+- Attribute: Namen, Einheit, Menge, zutat_id, rezept_id
 
 - Entität Leser
-- Attribute: Vorname, Nachname, E-Mail
+- Attribute: Vorname, Nachname, E-Mail, leser_id
 
 - Entität: Kommentar
-- Attribute: Text, Sterne
+- Attribute: Text, Sterne, kommentar_id, leser_id, rezept_id
+
+- Entität: Sammlung
+- Attribute: Name von Rezept, Saison, Kategorie, Beschreibung, sammlung_id, rezept_id
+
+
