@@ -27,3 +27,35 @@
 - Attribute: Name von Rezept, Saison, Kategorie, Beschreibung, sammlung_id, rezept_id
 
 
+Übung 06 Extra
+
+
+CREATE TABLE lieferant (
+    lieferant VARCHAR(40) PRIMARY KEY,
+    telefon VARCHAR(20)
+);
+
+CREATE TABLE einkauf (
+    einkauf_nr VARCHAR(5) PRIMARY KEY,
+    datum DATE,
+    lieferant VARCHAR(40),
+    FOREIGN KEY (lieferant)
+        REFERENCES lieferant(lieferant)
+);
+
+CREATE TABLE ware (
+    ware VARCHAR(40) PRIMARY KEY,
+    einzelpreis DECIMAL(6,2),
+    warengruppe VARCHAR(20)
+);
+
+CREATE TABLE einkaufsposition (
+    einkauf_nr VARCHAR(5),
+    ware VARCHAR(40),
+    menge INT,
+    PRIMARY KEY (einkauf_nr, ware),
+    FOREIGN KEY (einkauf_nr)
+        REFERENCES einkauf(einkauf_nr),
+    FOREIGN KEY (ware)
+        REFERENCES ware(ware)
+);
